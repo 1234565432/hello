@@ -1,4 +1,8 @@
+'''name
+test'''
 import sys
-if __name__ == 'main':
+if __name__ == '__main__':
     print('independent')
-print('be imported', __name__)
+else:
+    print('be imported', __name__)
+print('done')

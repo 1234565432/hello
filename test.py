@@ -1,1 +1,2 @@
-python module_using_sys.py we are
+import test__doc__
+dir(test__doc__)
