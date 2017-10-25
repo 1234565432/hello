@@ -7,7 +7,7 @@ def rename_files():
     print('current working directory is' + saved_path)
     os.chdir(r'E:\test')
     for index in range(len(dirs)):
-        print('old name ' +  dirs[index])
+        print('old name ' + dirs[index])
         os.renames(dirs[index], dirs[index].translate(None, '0123456789'))
     os.chdir(saved_path)
 rename_files()
